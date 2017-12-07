@@ -1,0 +1,12 @@
+---
+applications: 
+ - name: DemoConnectivityI331677
+   memory: 768M
+
+   path: target/demoConnectivity-0.0.1-SNAPSHOT.war
+
+   buildpack: https://github.com/cloudfoundry/java-buildpack.git#v3.9
+
+services:
+  - uaaI331677
+  - connI331677
