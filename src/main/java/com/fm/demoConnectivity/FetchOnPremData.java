@@ -69,7 +69,7 @@ public class FetchOnPremData {
 			urlConnection.setRequestProperty("Proxy-Authorization", "Bearer " + jwtToken1);
 			
 			// adding username and password Basic authentication to back end (er9)
-			urlConnection.setRequestProperty("Authorization", "Basic a2FrYW5pOkNoYW5kYW4yMw==");
+			urlConnection.setRequestProperty("Authorization", "Basic");
 			
 			// getting the output from er9 into input stream object and converting into string and returning it
 			InputStream instream = urlConnection.getInputStream();
